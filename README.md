@@ -40,6 +40,7 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
 ```
+---
 ```python
 docker exec <container_name> git --version
 ```
@@ -49,6 +50,7 @@ docker exec <container_name> git --version
 ```python
 git version 2.43.0
 ```
+---
 ```python
 docker exec <container_name> python3 --version
 ```
@@ -58,7 +60,7 @@ docker exec <container_name> python3 --version
 ```python
 Python 3.12.3
 ```
-
+---
 ```python
 docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 ```
